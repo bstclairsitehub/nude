@@ -28,9 +28,9 @@ export default function Home() {
     return () => observer.disconnect()
   }, [])
   const products = [
-    { id: '1', title: 'The Slip Dress', price: 185, category: 'Dresses', image: 'Image' },
-    { id: '2', title: 'Linen Tee', price: 68, category: 'Tops', image: 'Image' },
-    { id: '3', title: 'Wide Leg Trouser', price: 195, category: 'Bottoms', image: 'Image' },
+    { id: '1', title: 'The Slip Dress', price: 185, category: 'Dresses', image: 'https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=600&h=800&fit=crop' },
+    { id: '2', title: 'Linen Tee', price: 68, category: 'Tops', image: 'https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=600&h=800&fit=crop' },
+    { id: '3', title: 'Wide Leg Trouser', price: 195, category: 'Bottoms', image: 'https://images.unsplash.com/photo-1594938298603-c8148c4dae35?w=600&h=800&fit=crop' },
   ]
 
   const posts = [
