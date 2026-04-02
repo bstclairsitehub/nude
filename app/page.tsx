@@ -83,7 +83,7 @@ export default function Home() {
       </section>
 
       {/* Featured Products */}
-      <section className="py-20 px-6">
+      <section className="py-20 px-6 bg-white border-t border-nude">
         <div className="max-w-7xl mx-auto">
           <h2 className="scroll-reveal text-3xl md:text-4xl font-bold text-ink mb-2">Featured</h2>
           <p className="text-stone mb-12">New arrivals and bestsellers</p>
